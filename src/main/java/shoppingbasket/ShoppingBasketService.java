@@ -15,6 +15,8 @@ public class ShoppingBasketService {
             baskets.put(userId, basket);
         }
 
+        basket.addProduct(productId, quantity);
+
     }
 
     public Basket basketFor(UserId userId) {
